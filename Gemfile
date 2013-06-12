@@ -1,5 +1,8 @@
 source 'https://rubygems.org'
 
+gem 'faraday_middleware', :git    => 'https://github.com/lostisland/faraday_middleware.git',
+                          :branch => 'faraday-0.9'
+
 gem 'jruby-openssl', :platforms => :jruby
 gem 'rake'
 gem 'yard'
